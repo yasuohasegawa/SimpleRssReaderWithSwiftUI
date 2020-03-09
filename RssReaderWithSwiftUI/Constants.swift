@@ -9,6 +9,6 @@
 import Foundation
 
 struct Constants{
-    static let feedURL = "https://fullstack.bz/dev/yasuo/200306/feed.php"
+    static let feedURL = "https://api.rss2json.com/v1/api.json?rss_url=https://sneakerwars.jp/items.rss"
     static let imageURL = "https://img.sneakerwars.jp/images/11929/thumbnails/NIKE_AIR-MAX-95-UTILITY-NRG_MT-FUJI_CT3689-600-1.jpg"
 }

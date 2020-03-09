@@ -9,11 +9,7 @@
 import Foundation
 
 struct Feed: Codable {
-    var channel:Channel
-}
-
-struct Channel: Codable {
-    var item:[Item]
+    var items:[Item]
 }
 
 struct Item: Hashable, Codable {

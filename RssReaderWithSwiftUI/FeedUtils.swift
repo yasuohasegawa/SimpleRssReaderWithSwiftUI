@@ -41,7 +41,7 @@ class FeedUtils {
                 completion(.failure(NetworkError.parseFail))
                 return
             }
-            completion(.success(feed.channel.item))
+            completion(.success(feed.items))
         })
         task.resume()
     }
